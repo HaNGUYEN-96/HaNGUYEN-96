@@ -1,0 +1,21 @@
+<%- include('header'); -%>
+
+
+<main>
+    <div class="container my-3">
+        <h1>Errors in form</h1>
+        <p>
+            Sorry, there seems to be a problem with the data you supplied. 
+            Your form has a total of <strong><%= errors.length %></strong> errors.
+        </p>
+        <h3>Error List:</h3>
+        <ol>
+            <% errors.forEach((error) => { %>
+                <li>Error in field '<%= error.field %>': <em><%= error.message %></em></li>
+            <% }) %>
+        </ol>
+        <a href="service.html">Click here to return to the Service Booking form</a>
+    </div>
+</main>
+
+<%- include('footer'); -%>

@@ -1,0 +1,66 @@
+[
+    {
+        "id": "cam1",
+        "name": "Canon EOS R1",
+        "price": "$6999",
+        "image": "https://asia.canon/media/image/2024/07/16/db49fb90f3fb42f1b42bdb6a94d080d3_EOS+R1+Body+Front+Slant.png",
+        "description": "Imagine Bigger Things",
+        "detail": "Blaze your way through with up to 40 fps continuous shooting on the EOS R1, the flagship of the full-frame mirrorless R-series, which features Dual Pixel Intelligent AF that keeps your subject focused no matter the situation. With the In-camera Upscaling and Neural Network Noise Reduction feature, you can get clean images with a resolution of approximately 96MP even when shooting at ISO102,400. <br> Record breathtaking videos with the high detail 6K 60p RAW or videos up to 5x slower for that slow-mo cinematic effect with the 4K 120p. <br> 1. 24.2MP Full-Frame Back-Illuminated Stacked CMOS Sensor <br> 2. Accelerated Capture - DIGIC Accelerator & DIGIC X <br> 3. In-Camera 6K 60p RAW & 4K 120p Recording with Canon Log 2 and 3 <br> 4. Up to 40 fps with Eye Control AF & Action Priority Feature"
+    },
+    {
+        "id": "cam2",
+        "name": "Canon EOS R50",
+        "price": "$1450",
+        "image": "https://asia.canon/media/image/2023/02/06/5ce22c143fe94e588b92c69a4d5fee0e_EOS+R50+Black+RF-S18-45mm.png",
+        "description": "Move into a new Realm",
+        "detail": "Meet the Canon EOS R50, the new RF-mount successor to the EOS M50 Mark II that was a hit among bloggers. Recording video in 4K 30p (6K oversampled) or Full HD 120p with the lightweight Canon EOS R50 gives you more room to express your creative abilities. Focusing for photos and videos is a breeze thanks to EOS iTR AF X and Dual Pixel CMOS AF II. <br> Highly accurate burst shooting of up to 15 frames per second allows you to capture stunning images at a resolution of 24.2 megapixels. <br> 1. Approx. 24.2MP APS-C CMOS sensor & approx. 375g <br> 2. 4K 30p (6K oversampled) & FHD 120p <br> 3. Up to 15 fps & EOS iTR AF X"
+    },
+    {
+        "id": "cam3",
+        "name": "Canon EOS R7",
+        "price": "$2499",
+        "image": "https://asia.canon/media/image/2022/05/23/0ad3522b3e844ca19ac0a33a6b88cb28_EOS+R7+w+RF-S18-150mm+f3.5-6.3+IS+SSTM+Front+Slant.png",
+        "description": "Instinctively Reliable",
+        "detail": "Get closer with your instinct through the EOS R7. With a new APS-C sensor on the revolutionary RF mount, you get a telephoto effect of approximately 1.6x while maintaining high resolution. <br> This mirrorless camera also comes with robust In-Body Image Stabilization of up to 8 stops and shoots up to 30 frames per second. <br> 1. Approx. 32.5MP APS-C CMOS sensor with 1.6x crop factor <br> 2. Up to 30 fps continuous shooting with AF/AE tracking <br> 3. 4K UHD Fine (7K oversampling), 4K 60p and Canon Log 3"
+    },
+    {
+        "id": "cam4",
+        "name": "Fujifilm X-T50",
+        "price": "$2799",
+        "image": "https://www.jbhifi.com.au/cdn/shop/files/750401-Product-0-I-638513207406763159.jpg",
+        "description": "High image quality and performance",
+        "detail": "The FUJIFILM X-T50 is a compact and lightweight mirrorless camera that offers outstanding image quality and performance. The fifth generation of the X Series is equipped with the back -illuminated 40.2 megapixel X-Trans™ CMOS 5 HR sensor. The latest image processing algorithm delivers high resolution while maintaining a high signal-to-noise ratio. The improved pixel structure allows more light to be captured efficiently, ISO 125 is adopted as the normal sensitivity, which was previously used as the extended sensitivity for cameras. Equipped with an AI-based subject detection AF developed using deep learning technology, the camera now can detect animals, birds, cars, motorcycles, bicycles, airplanes, trains, insects, and drones. <br> 1. 40.2 megapixel X-Trans CMOS 5 HR sensor. <br> 2. 5-axis In Body Image Stabilisation function with a maximum of 7.0 stops <br> 3. AI-based subject detection AF developed using deep learning technology <br> 4. 20 film simulations including REALA ACE <br> 5. New rounded design that achieves both comfort in the hand and compact size"
+    },
+    {
+        "id": "cam5",
+        "name": "Fujifilm GFX50S II",
+        "price": "$7299",
+        "image": "https://www.jbhifi.com.au/cdn/shop/products/535422-Product-0-I-637665256949048362_e90bb170-78f5-4c51-9e42-43f40fd7f7f5.jpg",
+        "description": "More Than Full Frame",
+        "detail": "The FUJIFILM GFX50S II is a mirrorless digital camera that combines the world's highest level of image quality with the world's highest level of mobility. The camera is equipped with a 51.4 megapixel large format sensor, which is approximately 1.7 times larger than a full-frame 35mm sensor. The sensor is capable of capturing a wide dynamic range of 14 stops and a wide range of tonal expressions. The camera is also equipped with the X-Processor 4 image processing engine, which is capable of processing large amounts of data at high speed. The camera is equipped with a 3.69 million dot OLED electronic viewfinder, which provides a clear and detailed view of the subject. The camera is also equipped with a 3.2 inch 2.36 million dot tilting LCD monitor, which provides a clear and detailed view of the subject. <br> 1. 51.4 megapixel large format sensor <br> 2. 14 stops of dynamic range <br> 3. X-Processor 4 image processing engine <br> 4. 3.69 million dot OLED electronic viewfinder <br> 5. 3.2 inch 2.36 million dot tilting LCD monitor"
+    },
+    {
+        "id": "cam6",
+        "name": "Sony Alpha A7 IV",
+        "price": "$3499",
+        "image": "https://www.jbhifi.com.au/cdn/shop/products/555066-Product-0-I-637704090392914179_f8af1818-5090-4b1d-af4b-44fd63e864f1.jpg",
+        "description": "Next generation Hybrid",
+        "detail": "The Sony Alpha A7 IV is a full-frame mirrorless camera that combines high resolution with high speed. The camera is equipped with a 33 megapixel full-frame sensor, which is capable of capturing high resolution images with a wide dynamic range. The camera is also equipped with a 4K video recording function, which is capable of recording high quality videos with a wide dynamic range. The camera is also equipped with a 3 inch 1.44 million dot tilting LCD monitor, which provides a clear and detailed view of the subject. The camera is also equipped with a 9.44 million dot OLED electronic viewfinder, which provides a clear and detailed view of the subject. <br> 1. 33 megapixel full-frame sensor <br> 2. 4K video recording function <br> 3. 3 inch 1.44 million dot tilting LCD monitor <br> 4. 9.44 million dot OLED electronic viewfinder"
+    },
+    {
+        "id": "cam7",
+        "name": "Sony Alpha A6700",
+        "price": "$2099",
+        "image": "https://www.jbhifi.com.au/cdn/shop/products/655535-Product-1-I-638247313211274772.jpg",
+        "description": "Powerful AI focus system",
+        "detail": "The Sony Alpha A6700 is a mirrorless camera that combines high resolution with high speed. The camera is equipped with a 26 megapixel APS-C sensor, which is capable of capturing high resolution images with a wide dynamic range. The camera is also equipped with a 4K video recording function, which is capable of recording high quality videos with a wide dynamic range. The camera is also equipped with a 3 inch 1.44 million dot tilting LCD monitor, which provides a clear and detailed view of the subject. The camera is also equipped with a 9.44 million dot OLED electronic viewfinder, which provides a clear and detailed view of the subject. <br> 1. 24 megapixel APS-C sensor <br> 2. 4K video recording function <br> 3. 3 inch 1.44 million dot tilting LCD monitor <br> 4. 9.44 million dot OLED electronic viewfinder"
+    },
+    {
+        "id": "cam8",
+        "name": "Sony Alpha A7C II",
+        "price": "$3299",
+        "image": "https://www.jbhifi.com.au/cdn/shop/products/555066-Product-0-I-637704090392914179_f8af1818-5090-4b1d-af4b-44fd63e864f1.jpg",
+        "description": "Consistent accurate exposure and colour",
+        "detail": "The Sony Alpha A7C II is a full-frame mirrorless camera that combines high resolution with high speed. The camera is equipped with a 33 megapixel full-frame sensor, which is capable of capturing high resolution images with a wide dynamic range. The camera is also equipped with a 4K video recording function, which is capable of recording high quality videos with a wide dynamic range. The camera is also equipped with a 3 inch 1.44 million dot tilting LCD monitor, which provides a clear and detailed view of the subject. The camera is also equipped with a 9.44 million dot OLED electronic viewfinder, which provides a clear and detailed view of the subject. <br> 1. 24 megapixel full-frame sensor <br> 2. 4K video recording function <br> 3. 3 inch 1.44 million dot tilting LCD monitor <br> 4. 9.44 million dot OLED electronic viewfinder"
+    }
+]

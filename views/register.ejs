@@ -1,0 +1,152 @@
+<%- include('header'); -%>
+
+    <!-- Main content -->
+    <main class="container mt-3">
+        <!-- Register form -->
+        <section class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="container-fluid bg-warning-subtle">
+                                <h1 class="card-title text-center accountFormHead">Create Account</h2>
+                            </div>
+                            <form class="mt-2" action="/submitregister" method="post" id="registrationForm">
+                                <!-- Personal Details Fields -->
+                                <h4 class="mt-4 mb-3">Personal Details</h4>
+                                <div class="mb-2 row">
+                                    <label for="first_name" class="col-form-label col-md-2">First Name: </label>
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="last_name" class="col-form-label col-md-2">Last Name:</label>
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="email" class="col-form-label col-md-2">Email:</label>
+                                    <div class="col-md-10">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="phone" class="col-form-label col-md-2">Phone Number:</label>
+                                    <div class="col-md-10">
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" pattern="\d{10}" required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="postal_code" class="col-form-label col-md-2">Postal Code (Australia)</label>
+                                    <div class="mt-3 col-md-10">
+                                        <input type="text" class="form-control" id="postal_code" name="postal_code" placeholder="Enter your postal code" required pattern="\d{4}">
+                                        <div class="form-text">Postal code should be a 4-digit number specific to Australia.</div>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Account Information Fields -->
+                                <h4 class="mt-4">Account Information</h4>
+                                <div class="mb-2 row">
+                                    <label for="username" class="col-form-label col-md-3">Username:</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username" required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="password" class="col-form-label col-md-3">Password:</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control" id="password" name="password" placeholder="Create a password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}">
+                                        <div class="form-text">Password must be at least 8 characters long, include at least one number, one uppercase letter, one lowercase letter, and one special character.</div>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="confirm_password" class="col-form-label col-md-3">Confirm Password:</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Re-enter your password" required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Additional Information</h4>
+
+                                <!-- Additional Information Fields -->
+                                <div class="mb-2 row">
+                                    <label for="job" class="col-form-label col-md-3">Your Job:</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" id="job" name="job" placeholder="Enter your job title">
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="dob" class="col-form-label col-md-3">Date of Birth:</label>
+                                    <div class="col-md-9">
+                                        <input type="date" class="form-control" id="dob" name="dob" required>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="camera_brand" class="col-form-label col-md-3">Favorite Camera Brand:</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" id="camera_brand" name="camera_brand" placeholder="Enter your favorite camera brand">
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="photo_style" class="col-form-label col-md-3">Photography Style:</label>
+                                    <div class="col-md-9">
+                                        <select class="form-select" id="photo_style" name="photo_style" required>
+                                            <option value="" selected disabled>Select your preferred photography style</option>
+                                            <option value="landscape">Landscape</option>
+                                            <option value="portrait">Portrait</option>
+                                            <option value="wildlife">Wildlife</option>
+                                            <option value="sports">Sports</option>
+                                            <option value="macro">Macro</option>
+                                            <option value="street">Street</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="mt-4">Membership Details</h4>
+                                <!-- Membership Details Fields -->
+                                <div class="mb-2 row">
+                                    <label for="membership" class="col-form-label col-md-3">Membership Level:</label>
+                                    <div class="col-md-9">
+                                        <select class="form-select" id="membership" name="membership" required>
+                                            <option value="" selected disabled>Select your membership level</option>
+                                            <option value="basic">Basic - Free</option>
+                                            <option value="silver">Silver - $19.99/year</option>
+                                            <option value="gold">Gold - $49.99/year</option>
+                                            <option value="platinum">Platinum - $99.99/year</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-2 row">
+                                    <label for="newsletter" class="col-form-label col-md-4">Newsletter Subscription:</label>
+                                    <div class="form-check col-md-8 mt-2">
+                                        <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                                        <label class="form-check-label" for="newsletter">
+                                            Subscribe to our newsletter
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">Register</button>
+                                </div>
+                            </form>
+                            <p class="text-center mt-3">Already have an account? <a href="login.html">Login here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<%- include('footer'); -%>

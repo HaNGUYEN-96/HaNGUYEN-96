@@ -1,0 +1,71 @@
+<%- include('header'); -%>
+
+<main class="my-3 container">
+    <h1>Admin Dashboard</h1>
+
+    <!-- Display Registered Members -->
+    <h2>Registered Members</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Postal Code</th>
+                <th>Username</th>
+                <th>Date of Birth</th>
+                <th>Camera Brand</th>
+                <th>Photography Style</th>
+                <th>Membership</th>
+                <th>Newsletter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% members.forEach(member => { %>
+            <tr>
+                <td><%= member.first_name %></td>
+                <td><%= member.last_name %></td>
+                <td><%= member.email %></td>
+                <td><%= member.phone %></td>
+                <td><%= member.postal_code %></td>
+                <td><%= member.username %></td>
+                <td><%= member.dob %></td>
+                <td><%= member.camera_brand %></td>
+                <td><%= member.photo_style %></td>
+                <td><%= member.membership %></td>
+                <td><%= member.newsletter %></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+
+    <!-- Display Service Bookings -->
+    <h2>Service Bookings</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Booking Date</th>
+                <th>Service</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% services.forEach(service => { %>
+            <tr>
+                <td><%= service.name %></td>
+                <td><%= service.email %></td>
+                <td><%= service.mobile %></td>
+                <td><%= service.bookingdate %></td>
+                <td><%= service.service %></td>
+                <td><%= service.comment %></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</main>
+
+<%- include('footer'); -%>
