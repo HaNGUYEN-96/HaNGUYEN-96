@@ -1,0 +1,32 @@
+<%- include('header'); -%>
+
+<main>
+    <div class="container my-3">
+        <h1>Welcome, <%= username %>!</h1>
+        <p>
+            You are currently logged in with a <strong><%= membership %></strong> membership.
+        </p>
+
+        <% if (membership === 'basic') { %>
+            <p>You are enjoying our free Basic membership.</p>
+            <p> Upgrade to get more benefits!</p>
+        <% } else if (membership === 'silver') { %>
+            <p>You have Silver membership, which gives you access to our Silver features.</p>
+            <p>Consider upgrading to Gold or Platinum for more benefits!</p>
+        <% } else if (membership === 'gold') { %>
+            <p>You are enjoying our Gold membership, which includes premium features.</p>
+            <p>Thanks for being a valued customer!</p>
+        <% } else if (membership === 'platinum') { %>
+            <p>You are a Platinum member, enjoying all our exclusive top-tier benefits!</p>
+        <% } %>
+
+        <% if (username === 'admin') { %>
+            <a href="/admin" class="btn btn-primary">Admin Dashboard</a>
+        <% } %>
+
+
+
+        <a href="/logout" class="btn btn-primary">Logout</a>
+    </div>
+
+<%- include('footer'); -%>

@@ -1,0 +1,106 @@
+[
+    {
+        "id": "lens1",
+        "name": "Canon RF 50mm f/1.2L USM",
+        "price": "$2299",
+        "image": "https://asia.canon/media/image/2018/09/05/04f92fafc7944b94a1f30d38920ee421_RF50mm+f1.2L+USM.png",
+        "description": "Superior performance in low light and beautiful bokeh for portraits.",
+        "compatible_cameras": ["Canon EOS R1", "Canon EOS R50", "Canon EOS R7"],
+        "features": [
+            "50mm prime lens",
+            "Bright f/1.2 aperture for stunning bokeh",
+            "L-series quality for sharpness and durability"
+        ]
+    },
+    {
+        "id": "lens2",
+        "name": "Canon RF 24-70mm f/2.8L IS USM",
+        "price": "$2499",
+        "image": "https://asia.canon/media/image/2019/08/27/b7c374f6bc5444e3a2104090eff89670_RF24-70mm+f2.8L+IS+USM_main.png",
+        "description": "Versatile zoom lens for a range of photography from landscapes to portraits.",
+        "compatible_cameras": ["Canon EOS R1", "Canon EOS R50", "Canon EOS R7"],
+        "features": [
+            "24-70mm zoom range",
+            "f/2.8 aperture with image stabilization",
+            "Ideal for events, landscapes, and portraits"
+        ]
+    },
+    {
+        "id": "lens3",
+        "name": "Fujinon XF 35mm f/1.4 R",
+        "price": "$599",
+        "image": "https://www.photoreview.com.au/wp-content/uploads/2020/06/Fujinon_35mm_f1-4R-lens.jpg",
+        "description": "Fast prime lens with exceptional sharpness and bokeh.",
+        "compatible_cameras": ["Fujifilm X-T50"],
+        "features": [
+            "35mm focal length",
+            "f/1.4 aperture for low light and portrait work",
+            "Lightweight and compact"
+        ]
+    },
+    {
+        "id": "lens4",
+        "name": "Fujinon GF 110mm f/2 R LM WR",
+        "price": "$2799",
+        "image": "https://cdn11.bigcommerce.com/s-b8f2f/images/stencil/1280x1280/products/1792/10252/gf110a__09068.1719928960.jpg",
+        "description": "Medium telephoto lens ideal for portrait photography with superb bokeh.",
+        "compatible_cameras": ["Fujifilm GFX50S II"],
+        "features": [
+            "110mm focal length",
+            "f/2 aperture for stunning background blur",
+            "Weather-resistant design"
+        ]
+    },
+    {
+        "id": "lens5",
+        "name": "Sony FE 24-70mm f/2.8 GM",
+        "price": "$2199",
+        "image": "https://www.digitalcamerawarehouse.com.au/assets/full/48993.jpg",
+        "description": "G Master standard zoom lens with outstanding resolution.",
+        "compatible_cameras": ["Sony Alpha A7 IV", "Sony Alpha A7C II"],
+        "features": [
+            "24-70mm focal length",
+            "f/2.8 aperture for flexibility in low light",
+            "G Master optical design for superb sharpness"
+        ]
+    },
+    {
+        "id": "lens6",
+        "name": "Sony E 16-55mm f/2.8 G",
+        "price": "$1299",
+        "image": "https://store.sony.com.au/dw/image/v2/ABBC_PRD/on/demandware.static/-/Sites-sony-master-catalog/default/dw70138afc/images/SEL1655G/SEL1655G.png",
+        "description": "APS-C standard zoom lens with constant f/2.8 aperture.",
+        "compatible_cameras": ["Sony Alpha A6700"],
+        "features": [
+            "16-55mm zoom range",
+            "Constant f/2.8 aperture for low light shooting",
+            "Advanced optical design for high-quality images"
+        ]
+    },
+    {
+        "id": "lens7",
+        "name": "Canon RF 100-500mm f/4.5-7.1L IS USM",
+        "price": "$2899",
+        "image": "https://www.canon.com.au/-/media/images/canon/products/lenses/telephoto-lenses/rf-100-500mm-f4-5-7-1-l-is-usm/tile-image-rf100-500mm-1200x1200.ashx",
+        "description": "Versatile super-telephoto zoom lens for wildlife and sports photography.",
+        "compatible_cameras": ["Canon EOS R1", "Canon EOS R50", "Canon EOS R7"],
+        "features": [
+            "100-500mm focal length",
+            "Optical Image Stabilizer",
+            "L-series durability for rugged use"
+        ]
+    },
+    {
+        "id": "lens8",
+        "name": "Sony FE 85mm f/1.4 GM",
+        "price": "$1799",
+        "image": "https://www.camera-warehouse.com.au/media/catalog/product/s/o/sony_sel85f14gm2_1.jpg",
+        "description": "G Master portrait lens with breathtaking resolution and smooth bokeh.",
+        "compatible_cameras": ["Sony Alpha A7 IV", "Sony Alpha A7C II"],
+        "features": [
+            "85mm prime lens",
+            "f/1.4 aperture for stunning portraits",
+            "Superior optics and G Master quality"
+        ]
+    }
+]

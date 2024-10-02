@@ -1,0 +1,106 @@
+[
+    {
+        "id": "cam1",
+        "name": "GoPro HERO11 Black",
+        "price": "$499",
+        "image": "https://www.jbhifi.com.au/cdn/shop/products/664323-Product-0-I-638325052807446954.jpg",
+        "description": "The most advanced GoPro yet with improved stabilization and 5.3K video recording.",
+        "features": [
+            "5.3K 60fps video resolution",
+            "HyperSmooth 5.0 stabilization",
+            "Waterproof up to 33 feet (10 meters)",
+            "Built-in front and rear touch screens"
+        ]
+    },
+    {
+        "id": "cam2",
+        "name": "DJI Osmo Action 3",
+        "price": "$329",
+        "image": "https://se-cdn.djiits.com/tpc/uploads/in_the_box/cover/efdb9b74be6fe77c947dade197d54d9f@retina_small.png",
+        "description": "Action camera with dual touch screens and enhanced stabilization for extreme sports.",
+        "features": [
+            "4K 120fps video resolution",
+            "RockSteady 3.0 stabilization",
+            "Waterproof up to 16 meters without housing",
+            "Dual touch screens"
+        ]
+    },
+    {
+        "id": "cam3",
+        "name": "Sony RX100 VII",
+        "price": "$1199",
+        "image": "https://www.digitalcamerawarehouse.com.au/assets/full/45097.jpg",
+        "description": "Compact camera with powerful zoom and high-speed shooting capabilities.",
+        "features": [
+            "20.1MP 1-inch Exmor RS CMOS sensor",
+            "24-200mm zoom lens",
+            "4K video with real-time tracking AF",
+            "20 fps continuous shooting"
+        ]
+    },
+    {
+        "id": "cam4",
+        "name": "Canon PowerShot G7 X Mark III",
+        "price": "$749",
+        "image": "https://m.media-amazon.com/images/I/61igZmDM90L.jpg",
+        "description": "Compact vlogging camera with 4K video and live streaming capabilities.",
+        "features": [
+            "20.1MP 1-inch stacked CMOS sensor",
+            "4.2x optical zoom (24-100mm equivalent)",
+            "4K video without crop",
+            "Live YouTube streaming support"
+        ]
+    },
+    {
+        "id": "cam5",
+        "name": "Insta360 ONE R",
+        "price": "$549",
+        "image": "https://m.media-amazon.com/images/I/51RhVcYDXqL.jpg",
+        "description": "Modular action camera with interchangeable 360° and 4K lenses.",
+        "features": [
+            "Interchangeable 4K and 360° lens modules",
+            "5.7K 360° video resolution",
+            "FlowState stabilization",
+            "Waterproof up to 16 feet (5 meters)"
+        ]
+    },
+    {
+        "id": "cam6",
+        "name": "Panasonic Lumix ZS200",
+        "price": "$799",
+        "image": "https://m.media-amazon.com/images/I/61WQU6NksFL.jpg",
+        "description": "Compact travel camera with a large 1-inch sensor and 15x zoom.",
+        "features": [
+            "20.1MP 1-inch MOS sensor",
+            "15x optical zoom (24-360mm equivalent)",
+            "4K video recording",
+            "5-axis hybrid O.I.S. (Optical Image Stabilizer)"
+        ]
+    },
+    {
+        "id": "cam7",
+        "name": "Olympus Tough TG-6",
+        "price": "$449",
+        "image": "https://www.digitalcamerawarehouse.com.au/assets/full/45550.jpg",
+        "description": "Rugged, waterproof compact camera designed for extreme outdoor conditions.",
+        "features": [
+            "12MP BSI CMOS sensor",
+            "4x optical zoom (25-100mm equivalent)",
+            "Waterproof to 50 feet (15 meters)",
+            "4K video and RAW shooting"
+        ]
+    },
+    {
+        "id": "cam8",
+        "name": "Sony ZV-1",
+        "price": "$749",
+        "image": "https://www.teds.com.au/media/catalog/product/s/o/sony-z-v1-front-angle.jpg",
+        "description": "Compact camera optimized for vlogging with 4K video and real-time Eye AF.",
+        "features": [
+            "20.1MP 1-inch stacked CMOS sensor",
+            "24-70mm f/1.8-2.8 lens",
+            "4K video recording with image stabilization",
+            "Real-time Eye AF for video"
+        ]
+    }
+]

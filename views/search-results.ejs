@@ -1,0 +1,46 @@
+<%- include('header'); -%>
+
+<main class="container my-4">
+    <h1>Search Results for "<%= query %>"</h1>
+
+    <% if (results.length === 0) { %>
+        <p>No products found matching your query.</p>
+    <% } else { %>
+        <ul class="list-unstyled">
+            <% results.forEach(product => { %>
+                <li class="mb-4 border-bottom pb-2">
+                    <div class="row my-2">
+                        <div class="col-3">
+                            <img src="<%= product.image %>" alt="<%= product.name %>" style="width: 200px;">
+                        </div>
+                        <div class="col-7">
+                            <h3><%= product.name %></h3>
+                            <p><%= product.description %></p>
+                            <p><strong>Price:</strong> <%= product.price %></p>
+                        </div>
+                        <div class="col-2">
+                            <!-- Check the product type and generate the appropriate link -->
+                            <% if (product.category === 'digitalCams') { %>
+                                <a href="item-details.html?id=<%= product.id %>" class="btn btn-primary">View Camera</a>
+                            <% } else if (product.category === 'compactCams') { %>
+                                <a href="compact-details.html?id=<%= product.id %>" class="btn btn-primary">View Camera</a>
+                            <% } else if (product.category === 'lenses') { %>
+                                <a href="lens-details.html?id=<%= product.id %>" class="btn btn-primary">View Lens</a>
+                            <% } else if (product.category === 'accessories') { %>
+                                <a href="accessory-details.html?id=<%= product.id %>" class="btn btn-primary">View Accessory</a>
+                            <% } else if (product.category === 'drones') { %>
+                                <a href="drone-details.html?id=<%= product.id %>" class="btn btn-primary">View Drone</a>
+                            <% } else { %>
+                                <a href="item-details.html?id=<%= product.id %>" class="btn btn-primary">View Item</a>
+                            <% } %>
+                        </div>
+                    </div>
+                </li>
+            <% }); %>
+        </ul>
+    <% } %>
+
+    <a href="/" class="btn btn-secondary">Back to Home</a>
+</main>
+
+<%- include('footer'); -%>

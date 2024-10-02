@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+
+<main>
+    <div class="container my-3">
+        <h1>Registration Successful</h1>
+        <p>
+            Thank you for registering with us. Your account has been created successfully.
+        </p>
+
+        <h2>Your Registration Information:</h2>
+        <ul>
+            <li><strong>First Name:</strong> <%= first_name %></li>
+            <li><strong>Last Name:</strong> <%= last_name %></li>
+            <li><strong>Email:</strong> <%= email %></li>
+            <li><strong>Phone Number:</strong> <%= phone %></li>
+            <li><strong>Postal Code:</strong> <%= postal_code %></li>
+            <li><strong>Username:</strong> <%= username %></li>
+            <li><strong>Date of Birth:</strong> <%= dob %></li>
+            <li><strong>Favorite Camera Brand:</strong> <%= camera_brand %></li>
+            <li><strong>Photography Style:</strong> <%= photo_style %></li>
+            <li><strong>Membership Level:</strong> <%= membership %></li>
+            <li><strong>Newsletter Subscription:</strong> <%= newsletter === 'subscribed' ? 'Yes' : 'No' %></li>
+        </ul>
+        
+        <a href="/register">Click here to return to the Registration form</a>
+    </div>
+</main>
+
+<%- include('footer'); -%>

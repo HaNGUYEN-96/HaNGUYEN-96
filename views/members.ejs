@@ -1,0 +1,90 @@
+<%- include('header'); -%>
+
+    <header>
+        <div class="container-fluid bg-primary-subtle">
+            <div class="col-sm-8 mx-auto text-center py-2">
+                <h1 class="display-4">dKin Caps</h1>
+                <p class="lead ">A young and inspiring organisation whose
+                    primary purpose is to bring you the highest quality headwear available.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container my-4">
+            <h2>Membership List</h2>
+            <p>
+                The table below lists all the registered members of the <strong>dKin Caps</strong> community. Accessing
+                this data, stored in a persitant database, is performed on the server.
+            </p>
+            <% if (members.length> 0) { %>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="width:2%">ID</th>
+                            <th scope="col" style="width:10%">First Name</th>
+                            <th scope="col" style="width:10%">Surname</th>
+                            <th scope="col" style="width:16%">Email</th>
+                            <th scope="col" style="width:9%">Mobile</th>
+                            <th scope="col" style="width:14%">Number of Caps</th>
+                            <th scope="col" style="width:14%">Favourite Cap</th>
+                            <th scope="col" style="width:25%">Comment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% members.forEach(member=> { %>
+                            <tr>
+                                <td>
+                                    <%= member.id %>
+                                </td>
+                                <td>
+                                    <%= member.fname %>
+                                </td>
+                                <td>
+                                    <%= member.sname %>
+                                </td>
+                                <td>
+                                    <%= member.email %>
+                                </td>
+                                <td>
+                                    <%= member.mobile %>
+                                </td>
+                                <td>
+                                    <%= member.numcaps %>
+                                </td>
+                                <td>
+                                    <%= member.favourite %>
+                                </td>
+                                <td>
+                                    <%= member.comment %>
+                                </td>
+                            </tr>
+                            <% }) %>
+                    </tbody>
+                </table>
+                <% } else { %>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Surname</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Mobile</th>
+                                <th scope="col">Number of Caps</th>
+                                <th scope="col">Favourite Cap</th>
+                                <th scope="col">Comment</th>
+                            </tr>
+                        </thead>
+                        <tbody> 
+                            <tr>
+                                <td colspan="8"><em>List is empty.</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <% } %>
+                        <a href="/">Click here to return to the feedback form</a>
+        </div>
+
+    </html>
+<%- include('footer'); -%>

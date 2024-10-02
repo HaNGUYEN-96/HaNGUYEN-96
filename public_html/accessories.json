@@ -1,0 +1,106 @@
+[
+    {
+        "id": "acc1",
+        "name": "Canon Speedlite 600EX II-RT",
+        "price": "$499",
+        "image": "https://asia.canon/media/migration/shared/live/products/EN/speedlite-600ex-ii-rt_b1.png",
+        "description": "High-performance external flash with fast recycling times.",
+        "compatible_cameras": ["Canon EOS R1", "Canon EOS R50", "Canon EOS R7"],
+        "features": [
+            "Guide number of 60m at ISO 100",
+            "Radio wireless flash control",
+            "High-speed sync"
+        ]
+    },
+    {
+        "id": "acc2",
+        "name": "DJI Ronin-S Gimbal",
+        "price": "$749",
+        "image": "https://www-cdn.djiits.com/cms/uploads/559fc84a99793cae38347eefec35cf3f@640*640.png",
+        "description": "Single-handed gimbal stabilizer for smooth cinematic footage.",
+        "compatible_cameras": ["Canon EOS R1", "Sony Alpha A7 IV", "Fujifilm X-T50"],
+        "features": [
+            "Supports up to 8 lbs of camera gear",
+            "3-axis motorized stabilization",
+            "Dedicated focus wheel"
+        ]
+    },
+    {
+        "id": "acc3",
+        "name": "Manfrotto 190X Tripod",
+        "price": "$199",
+        "image": "https://cdn.manfrotto.com/media/catalog/product/cache/1e774dca205198565016e92bdb88ad55/m/k/mk190x3-3w1.jpg",
+        "description": "Durable and flexible aluminum tripod with quick power locks.",
+        "compatible_cameras": ["Canon EOS R1", "Sony Alpha A7C II", "Fujifilm GFX50S II"],
+        "features": [
+            "Load capacity: 15.4 lbs",
+            "Max height: 63 inches",
+            "Quick power lock levers for fast setup"
+        ]
+    },
+    {
+        "id": "acc4",
+        "name": "Hoya 72mm UV Filter",
+        "price": "$89",
+        "image": "https://www.teds.com.au/media/catalog/product/h/o/hoya-hd-uv-filter_5.jpg",
+        "description": "Multi-coated UV filter for reducing haze and protecting your lens.",
+        "compatible_cameras": ["Canon EOS R1", "Fujifilm X-T50", "Sony Alpha A6700"],
+        "features": [
+            "72mm filter thread",
+            "Multi-coated glass for better light transmission",
+            "Protects lens from dust and scratches"
+        ]
+    },
+    {
+        "id": "acc5",
+        "name": "SanDisk Extreme PRO 128GB SDXC",
+        "price": "$69",
+        "image": "https://i.ebayimg.com/images/g/52AAAOSw~Kxi2lAd/s-l960.webp",
+        "description": "High-speed SDXC card for capturing 4K UHD video and continuous burst photography.",
+        "compatible_cameras": ["Canon EOS R50", "Sony Alpha A7 IV", "Fujifilm GFX50S II"],
+        "features": [
+            "128GB storage capacity",
+            "Transfer speeds up to 170MB/s",
+            "Supports 4K UHD video recording"
+        ]
+    },
+    {
+        "id": "acc6",
+        "name": "Peak Design Slide Camera Strap",
+        "price": "$59",
+        "image": "https://cdn.rubbermonkey.com/ProductImage/840/234897.jpg",
+        "description": "Comfortable, quick-adjusting camera strap for all-day wear.",
+        "compatible_cameras": ["Canon EOS R1", "Sony Alpha A6700", "Fujifilm X-T50"],
+        "features": [
+            "Anchor Link system for quick attachment and removal",
+            "Smooth and durable seatbelt-style webbing",
+            "Padded for extra comfort"
+        ]
+    },
+    {
+        "id": "acc7",
+        "name": "Rode VideoMic Pro+",
+        "price": "$299",
+        "image": "https://cdn.djcity.com.au/wp-content/uploads/2017/07/03162238/44.jpg",
+        "description": "Professional-grade on-camera microphone for high-quality audio recording.",
+        "compatible_cameras": ["Canon EOS R50", "Sony Alpha A7C II", "Fujifilm X-T50"],
+        "features": [
+            "Supercardioid polar pattern for focused sound pickup",
+            "Built-in battery with USB recharging",
+            "Integrated shock mount"
+        ]
+    },
+    {
+        "id": "acc8",
+        "name": "Godox V1 Flash for Sony",
+        "price": "$259",
+        "image": "https://m.media-amazon.com/images/I/61booxO6YzL.jpg",
+        "description": "Round head flash for softer lighting and better spread.",
+        "compatible_cameras": ["Sony Alpha A7 IV", "Sony Alpha A6700", "Sony Alpha A7C II"],
+        "features": [
+            "Round head for even light distribution",
+            "TTL support for auto exposure control",
+            "Rechargeable lithium-ion battery"
+        ]
+    }
+]

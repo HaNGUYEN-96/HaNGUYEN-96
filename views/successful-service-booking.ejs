@@ -1,0 +1,23 @@
+<%- include('header'); -%>
+
+<main>
+    <div class="container my-3">
+        <h1>Booking Service Status</h1>
+        <p>
+            Thank you for booking a service with us. We will get back to you as soon as possible.
+        </p>
+
+        <h2>Your Booking Information:</h2>
+        <ul>
+            <li><strong>Name:</strong> <%= name %></li>
+            <li><strong>Email:</strong> <%= email %></li>
+            <li><strong>Mobile Number:</strong> <%= mobileNumber %></li>
+            <li><strong>Booking Date:</strong> <%= date %></li>
+            <li><strong>Service Choice:</strong> <%= serviceChoice %></li>
+            <li><strong>Message:</strong> <%= message %></li>
+        </ul>
+        <a href="service.html">Click here to return to the Service Booking form</a>
+    </div>
+</main>
+
+<%- include('footer'); -%>

@@ -1,0 +1,237 @@
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 0%;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fe6e00;
+    /* Change the text color on hover */
+    text-shadow: 0 0 5px #ffee10;
+}
+
+.carousel-item {
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.headerband {
+    border-radius: 10px;
+}
+
+.headerband img {
+    max-width: 40% !important
+}
+
+.headerband a img {
+    transition: transform 0.3s ease;
+}
+
+.headerband a img:hover {
+    transform: scale(1.2);
+    /* Increase the image size by 20% on hover */
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    /* text-shadow: #333; */
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 1;
+}
+
+.bgimg-1 {
+    background-image: url("img/Cinema.jpg");
+    min-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: url("img/lighthouse.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("img/window.jpg");
+    min-height: 400px;
+}
+
+.bgimg-service {
+    background-image: url("https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg");
+    min-height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.serviceHeader {
+    margin-top: 10%;
+}
+
+.foreground-image{
+    max-height: 70%;
+    opacity: 1;
+    z-index: 2; /* Ensure it stays on top */
+}
+
+/* .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+} */
+
+/* .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+} */
+
+/* h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+} */
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    /* Optional: Adds space between the cards */
+}
+
+.card {
+    flex: 1;
+    /* Optional: Makes all cards the same width */
+    min-width: 20px;
+    /* Optional: Sets a minimum width for the cards */
+}
+
+.card-img-top {
+    width: 70%; /* This makes sure the image fits inside the card */
+    height: 200px;  /* Set a fixed height */
+    object-fit: cover; /* Makes sure the image does not get distorted */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top2 {
+    width: 100%; /* This makes sure the image fits inside the card */
+    height: 400px;  /* Set a fixed height */
+    object-fit: cover; /* Makes sure the image does not get distorted */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemdetail-img {
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemname {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    color: rgb(1, 7, 74);
+}
+
+.price {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    font-size: 1.8em; /* Larger font size */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0em;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.itemdetail {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    line-height: 1.5em;
+}
+
+.accountFormHead {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(154, 82, 0);
+    line-height: 1.5em;
+}
+
+.service-section {
+    padding: 60px 0;
+    line-height: 2em;
+}
+
+.service-section h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ff6a00;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #ffd374;
+}
+.service-card {
+    margin-bottom: 30px;
+}
+
+.main-content {
+    width: 60%;
+    padding: 20px;
+}
+
+#contactHeader {
+    font-family: 'Abel';
+    font-size: 100%;
+    font-weight: bold;
+}
